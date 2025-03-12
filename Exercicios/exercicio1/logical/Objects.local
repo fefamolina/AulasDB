@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="302ED9FC-767D-87F4-00BA-FCC1E153D7A6" name="Alunos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="EE907E31-AC9E-1781-6BD9-4BA7FFC629B1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="73066B21-9448-CD7E-F29D-62027911D060" name="Cursos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="EE907E31-AC9E-1781-6BD9-4BA7FFC629B1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="44AD5C89-8650-B9A4-0058-E6A26A582052" name="Instrutores" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="EE907E31-AC9E-1781-6BD9-4BA7FFC629B1" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

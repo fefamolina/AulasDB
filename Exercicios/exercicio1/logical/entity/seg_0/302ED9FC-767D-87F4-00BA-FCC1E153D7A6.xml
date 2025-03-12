@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="302ED9FC-767D-87F4-00BA-FCC1E153D7A6" name="Alunos">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-12 01:10:26 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="C215D6F3-DEC8-8A8D-98A9-F9DC95698267" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_Aluno" id="C7FBDF93-0BF8-87C6-CC69-4055B3D527E9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-12 01:10:34 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="C215D6F3-DEC8-8A8D-98A9-F9DC95698267" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="79C2F908-895E-0EA9-4BC3-2C22F2CC419B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-12 01:10:41 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="C215D6F3-DEC8-8A8D-98A9-F9DC95698267" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="3499BE29-D001-EA61-7CC1-25C7F8ECD36B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-12 01:10:48 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="C215D6F3-DEC8-8A8D-98A9-F9DC95698267" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="96E9CC5E-9A5E-F873-ED65-372DF69E694E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-12 01:10:58 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="C215D6F3-DEC8-8A8D-98A9-F9DC95698267" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cursos_realizados" id="8E67C745-D04C-079E-B55B-9FE15F5C6739">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-12 01:23:26 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="C215D6F3-DEC8-8A8D-98A9-F9DC95698267" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA95BE44-F2DD-AB5D-1616-0982ECD93B33" name="Alunos PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-12 01:10:39 UTC</createdTime>
+<ownerDesignName>exercicio1</ownerDesignName>
+<engineerTo>
+<item key="C215D6F3-DEC8-8A8D-98A9-F9DC95698267" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C7FBDF93-0BF8-87C6-CC69-4055B3D527E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
