@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="175A7C59-8CF6-BCB6-1C7D-B4F6C615C929" name="DEPARTAMENTOS">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-26 00:34:55 UTC</createdTime>
+<ownerDesignName>Exercicio3</ownerDesignName>
+<engineerTo>
+<item key="AFF35AFF-4908-5F38-E1D5-10323B99135E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_depto" id="22DADD25-651D-5FBC-9EDD-69972F1F7CD7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-26 00:35:01 UTC</createdTime>
+<ownerDesignName>Exercicio3</ownerDesignName>
+<engineerTo>
+<item key="AFF35AFF-4908-5F38-E1D5-10323B99135E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="75B82165-D182-A7E5-5B3B-E258B35D3202">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-26 00:35:10 UTC</createdTime>
+<ownerDesignName>Exercicio3</ownerDesignName>
+<engineerTo>
+<item key="AFF35AFF-4908-5F38-E1D5-10323B99135E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8705CC5F-8A39-841D-8377-D6696D9F9993" name="DEPARTAMENTOS PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-26 00:35:07 UTC</createdTime>
+<ownerDesignName>Exercicio3</ownerDesignName>
+<engineerTo>
+<item key="AFF35AFF-4908-5F38-E1D5-10323B99135E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22DADD25-651D-5FBC-9EDD-69972F1F7CD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

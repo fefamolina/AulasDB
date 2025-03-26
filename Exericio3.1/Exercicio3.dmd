@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exercicio3" id="5E01BE9B-0349-EB9E-43F0-D38FF019B9DA" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-26 00:34:36 UTC</createdTime>
+<ownerDesignName>Exercicio3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5E01BE9B-0349-EB9E-43F0-D38FF019B9DA</designId>
+</OSDM_Design>
